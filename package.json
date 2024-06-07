@@ -1,0 +1,19 @@
+{
+  "name": "svelete-custom-card",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "masanorisato <trang.uixdev> (https://www.masanori.xyz/)",
+  "license": "ISC",
+  "description": "",
+  "engines": {
+    "node": ">=18.0"
+  },
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.4.0"
+  }
+}
