@@ -8,12 +8,5 @@
   "keywords": [],
   "author": "masanorisato <trang.uixdev> (https://www.masanori.xyz/)",
   "license": "ISC",
-  "description": "",
-  "engines": {
-    "node": ">=18.0"
-  },
-  "devDependencies": {
-    "chai": "^5.1.1",
-    "mocha": "^10.4.0"
-  }
+  "description": ""
 }
