@@ -12,7 +12,6 @@
   export let size: SizeType | 'none' = 'sm';
   export let imgClass: string = '';
 
-  // propagate props type from underlying Frame
   interface $$Props extends ComponentProps<Frame> {
     horizontal?: boolean;
     reverse?: boolean;
@@ -41,7 +40,7 @@
 
   let innerPadding: string;
   $: innerPadding = paddings[padding];
-
+  let a:string = "test string";
   let cardClass: string;
   $: cardClass = twMerge('flex w-full', sizes[size], reverse ? 'flex-col-reverse' : 'flex-col', horizontal && (reverse ? 'md:flex-row-reverse' : 'md:flex-row'), href && 'hover:bg-gray-100 dark:hover:bg-gray-700', !img && innerPadding, $$props.class);
 
