@@ -41,6 +41,7 @@
   let innerPadding: string;
   $: innerPadding = paddings[padding];
   let a:string = "test string";
+  let b:string = "test string";
   let cardClass: string;
   $: cardClass = twMerge('flex w-full', sizes[size], reverse ? 'flex-col-reverse' : 'flex-col', horizontal && (reverse ? 'md:flex-row-reverse' : 'md:flex-row'), href && 'hover:bg-gray-100 dark:hover:bg-gray-700', !img && innerPadding, $$props.class);
 
