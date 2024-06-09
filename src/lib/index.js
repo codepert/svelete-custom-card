@@ -1,2 +1,2 @@
-// place files you want to import through the `$lib` alias in this folder.
-export { default as Card } from './card/Card.svelte';
+// Reexport your entry components here
+export { default as Card } from "./cards/Card.svelte";
