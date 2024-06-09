@@ -1,5 +1,5 @@
 {
-  "name": "svelete-custom-card",
+  "name": "svelete-c-card",
   "version": "0.0.1",
   "scripts": {
     "dev": "vite dev --host",
