@@ -12,7 +12,6 @@
   export let size: SizeType | 'none' = 'sm';
   export let imgClass: string = '';
 
-  // propagate props type from underlying Frame
   interface $$Props extends ComponentProps<Frame> {
     horizontal?: boolean;
     reverse?: boolean;
